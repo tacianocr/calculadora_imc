@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Degradê com cor de fundo */
+.fundo {
+    background-image: linear-gradient(45deg, rgb(128, 99, 4), rgb(95, 19, 19));
+    height: 100vh;
+    color: rgba(240, 248, 255, 0.61);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Posição da calculadora */
+.calculadora {
+    position: absolute;
+    background-image: linear-gradient(45deg, rgb(3, 5, 0), rgba(167, 109, 2, 0.849));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+/* Estilos dos botoes*/
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-image: linear-gradient(45deg, rgba(15, 24, 4, 0.589), rgba(175, 72, 3, 0.829));
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.botao:hover {
+    background-color: rgba(218, 213, 213, 0);
+}
+
+#resultado {
+    width: 1;
+    background-color: rgba(15, 1, 1, 0.747);
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: rgb(219, 212, 212);
+    text-align: right;
+    padding: 5px;
+    border-radius: 4px;
+}
+
